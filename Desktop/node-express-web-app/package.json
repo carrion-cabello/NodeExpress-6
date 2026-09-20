@@ -1,13 +1,25 @@
 {
-  "name": "express-web-app",
+  "name": "node-express-web-app",
   "version": "1.0.0",
-  "description": "- Node.js: v24.21.0\r - npm: 11.19.0\r - Sistema operativo: Windows 10 PRO",
-  "main": "app.js",
+  "description": "Aplicación web incremental con Node.js y Express",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "express",
+    "backend"
+  ],
+  "author": "Melina",
   "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }

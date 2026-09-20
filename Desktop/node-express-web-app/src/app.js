@@ -1,1 +1,2 @@
-console.log("Hola mundo desde Node.js");
+console.log("servidor iniciado");
+console.log("Aplicación iniciada");
